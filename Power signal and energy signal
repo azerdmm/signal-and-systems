@@ -1,0 +1,34 @@
+Sure! Here are two examples of power signals and two examples of energy signals, along with explanations for each:
+
+▎Power Signals
+
+1. Continuous Sinusoidal Signal
+   Example:  x(t) = A sin(2π f t)   
+   Explanation: A continuous sinusoidal signal has a constant amplitude  A  and oscillates indefinitely. Its average power can be calculated, and it remains finite over time. Since the signal does not decay and continues to oscillate, it is classified as a power signal.
+
+2. Square Wave Signal
+   Example:  x(t) = A ⋅ sgn(sin(2π f t))  (where sgn is the sign function)  
+   Explanation: A square wave signal alternates between two levels (e.g., +A and -A) at a constant frequency. It has a finite average power over time due to its periodic nature, making it another example of a power signal.
+
+▎Energy Signals
+
+1. Rectangular Pulse Signal
+   Example:
+
+x(t) =
+A |t| ≤ T/2
+0 otherwise
+
+
+Explanation: A rectangular pulse signal exists for a finite duration (from -T/2 to T/2) and has an amplitude  A . The total energy of this signal can be calculated by integrating the square of the signal over its duration, resulting in a finite value. Thus, it is classified as an energy signal.
+
+2. Exponential Decay Signal
+   Example:  x(t) = A e⁻ᵅ ᵗ  for  t ≥ 0  (where  α > 0 )  
+   Explanation: This signal starts at amplitude  A  and decays exponentially towards zero as time increases. Since it exists only for a finite amount of time before approaching zero, its total energy (calculated by integrating the square of the signal over time) is finite, making it an energy signal.
+
+▎Summary
+
+• Power Signals have infinite energy but finite average power over time (e.g., sinusoidal and square wave signals).
+• Energy Signals have finite energy and typically exist for a limited duration (e.g., rectangular pulse and exponential decay signals).
+
+This distinction is crucial in signal processing and communications, as it affects how signals are analyzed and utilized in various applications.
